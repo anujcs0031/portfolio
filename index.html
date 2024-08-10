@@ -4,144 +4,175 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anuj Gupta - Software Engineer</title>
-    <!-- Define CSS Styles -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.jpeg" type="image/jpeg">
+    <title>Anuj Gupta - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!--================ Header =================-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Header -->
+    <header class="header_area">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Anuj Gupta</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Work Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav justify-content-end">
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!--================ Header End =================-->
 
-    <!--================ Hero Section =================-->
-    <section class="hero text-center text-white d-flex justify-content-center align-items-center" style="background-image: url('img/hero-bg.jpg');">
-        <div class="hero-content">
-            <h1>Hi, I'm Anuj Gupta</h1>
-            <p>Software Engineer II | AI Enthusiast | Musician</p>
-            <a class="btn btn-primary" href="https://docs.google.com/document/d/1uUxaZ44kY4uZCXud1MqDdv356asiq958WsJyKqxhQVM/edit?usp=sharing" target="_blank">View Resume</a>
-        </div>
-    </section>
-    <!--================ Hero Section End =================-->
-
-    <!--================ About Section =================-->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2>About Me</h2>
-                    <p>
-                        I am a Software Engineer with a passion for developing innovative solutions and driving technology forward. With over 5 years of experience in Conversational AI, Java Development, and Full Stack Web Development, I bring a wealth of knowledge and expertise to the table. Outside of work, I am an avid musician and enjoy playing the classical flute.
-                    </p>
-                    <p>
-                        My journey has been marked by successful project implementations, leading teams, and contributing to high-impact solutions. I am always eager to learn and adapt, striving for excellence in every endeavor.
-                    </p>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img src="img/about-me.jpg" alt="About Me" class="img-fluid rounded-circle">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--================ About Section End =================-->
-
-    <!--================ Work Experience Section =================-->
-    <section id="work" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center">Work Experience</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <h3>Cognitive Technical Lead at Amelia</h3>
-                    <p>Leading AI implementations and developing innovative solutions for major clients. Key projects include Voice Use Case Automation and integrating conversational AI for clients like American National and Westrock Coffee.</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <h3>Software Development Engineer II at Oracle Cerner</h3>
-                    <p>Worked on enhancing Soarian Financials with custom front-end UI and backend development using Spring Boot and Restful Web Services. Also focused on automation and CI/CD pipelines.</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <h3>Cognitive Implementation Engineer at IPsoft Global Services</h3>
-                    <p>Implemented complex AI solutions and integrations, leading to enhanced user experiences and successful client engagements. Worked with clients like JP Morgan Chase & Co and Blackrock.</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <h3>Software Engineer at Hexaware Technologies</h3>
-                    <p>Contributed to various projects in a fast-paced environment, focusing on backend development and system optimizations. Engaged in significant projects that improved business processes and client satisfaction.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--================ Work Experience Section End =================-->
-
-    <!--================ Contact Section =================-->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Contact Me</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="contact-info">
-                        <h3>Get In Touch</h3>
-                        <p><i class="fas fa-phone-alt"></i> +91-8948569909</p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:anujcs0031@gmail.com">anujcs0031@gmail.com</a></p>
-                        <p><i class="fas fa-linkedin"></i> <a href="https://www.linkedin.com/in/en-guptaanuj/" target="_blank">LinkedIn</a></p>
+    <!-- Banner Area -->
+    <section id="home" class="home_banner_area" style="background-image: url('img/old_background.jpeg');">
+        <div class="banner_inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="banner_content">
+                            <h3 class="text-uppercase">Hello!</h3>
+                            <h1 class="text-uppercase">I am Anuj Gupta</h1>
+                            <h5 class="text-uppercase">Software Engineer II</h5>
+                            <div class="d-flex align-items-center">
+                                <a class="primary_btn tr-bg" href="https://docs.google.com/document/d/1uUxaZ44kY4uZCXud1MqDdv356asiq958WsJyKqxhQVM/edit?usp=sharing" target="_blank"><span>Get CV</span></a>
+                                <a href="https://www.linkedin.com/in/anuj-gupta-062069141/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:32px"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="home_right_img">
+                            <img class="img-fluid rounded-circle" src="img/myimage.jpeg" alt="Anuj Gupta">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Area -->
+    <section id="about" class="about_area section_gap">
+        <div class="container">
+            <div class="row justify-content-start align-items-center">
+                <div class="col-lg-5">
+                    <div class="about_img">
+                        <img class="img-fluid" src="img/about-us.png" alt="About Me">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-6">
+                    <div class="main_title text-left">
+                        <h2>About Me</h2>
+                        <p>
+                            As a Software Engineer with 5+ years of experience, I have a solid background in Java Application Development, Conversational AI, and Full Stack Web Development. My expertise extends to a variety of tools and technologies including Groovy, Spring Boot, and Jenkins.
+                        </p>
+                        <p>
+                            In addition to my technical skills, I am a passionate musician, specializing in Indian Classical Flute. My dedication to music has earned me various awards and recognitions. You can explore my musical journey on my [YouTube channel](https://www.youtube.com/channel/UCMirYtI-zgzLsfmEa7Dk40A).
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--================ Contact Section End =================-->
 
-    <!--================ Footer =================-->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Anuj Gupta. All rights reserved.</p>
+    <!-- Work Experience -->
+    <section id="work" class="brand_area section_gap_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_title text-left">
+                        <h2>Work Experience</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Cognitive Technical Lead | Amelia, an IPsoft Company</h3>
+                    <p><a href="https://www.amelia.ai" target="_blank">Amelia</a> is a leading AI software company delivering cognitive solutions. My role includes defining AI implementation structures, integrating web services, and enhancing Amelia’s capabilities.
+                    <br><br>
+                    • Implemented automated voice use cases securing a $1.5 million client.<br>
+                    • Developed outbound calling integrations and flight status use cases.<br>
+                    • Led migration of use cases and implemented client certificate authorization.<br>
+                    • Delivered internal training and enhanced business flow efficiency.</p>
+                </div>
+                <div class="offset-lg-2 col-lg-4 col-md-6">
+                    <div class="client-info">
+                        <div class="d-flex mb-50">
+                            <span class="lage">5+</span>
+                            <span class="smll">Years of Experience</span>
+                        </div>
+                        <div class="call-now d-flex">
+                            <div>
+                                <span class="fa fa-phone"></span>
+                            </div>
+                            <div class="ml-15">
+                                <p>Contact Info</p>
+                                <h3>(+91)-894-856-9909</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact_area section_gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="main_title">
+                        <h2>Contact Me</h2>
+                        <p>Feel free to reach out via email or schedule an interview.</p>
+                    </div>
+                    <div class="contact_form">
+                        <a href="mailto: anujcs0031@gmail.com" class="primary_btn tr-bg"><span>Email Me</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="footer_top flex-column">
+                        <div class="footer_logo">
+                            <h4>Connect with Me</h4>
+                        </div>
+                        <div class="footer_social">
+                            <a href="https://www.linkedin.com/in/anuj-gupta-062069141/" target="_blank"><i class="fa fa-linkedin" style="font-size:40px"></i></a>
+                            <a href="mailto: anujcs0031@gmail.com" target="_blank"><i class="fa fa-google" style="font-size:40px"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!--================ Footer End =================-->
 
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
