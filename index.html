@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/favicon.jpeg" type="image/jpeg">
+    <link rel="icon" href="img/background.jpg" type="image/jpeg">
     <title>Anuj Gupta</title>
     <!-- Define CSS Styles-->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -17,124 +17,14 @@
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-
-        .header_area {
-            background-color: #007bff;
-            padding: 15px 0;
-        }
-
-        .header_area .navbar {
-            padding: 0;
-        }
-
-        .header_area .navbar-nav .nav-item .nav-link {
-            color: #fff;
-            font-weight: 500;
-            padding: 10px 20px;
-        }
-
-        .header_area .navbar-nav .nav-item .nav-link:hover {
-            color: #ffd700;
-        }
-
-        .home_banner_area {
-            background: url('img/white_background.jpg') no-repeat center center;
-            background-size: cover;
-            color: #fff;
-            padding: 100px 0;
-        }
-
-        .banner_content h1,
-        .banner_content h3,
-        .banner_content h5 {
-            margin: 0;
-            padding: 0;
-        }
-
-        .primary_btn {
-            background-color: #ffd700;
-            color: #343a40;
-            padding: 10px 30px;
-            border-radius: 25px;
-            margin-right: 20px;
-            text-transform: uppercase;
-        }
-
-        .primary_btn:hover {
-            background-color: #343a40;
-            color: #ffd700;
-        }
-
-        .about_area {
-            padding: 50px 0;
-        }
-
-        .about_img img {
-            border-radius: 15px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .main_title h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        .main_title p {
-            margin-bottom: 20px;
-        }
-
-        .client_item img {
-            max-width: 100%;
-            filter: grayscale(100%);
-            transition: filter 0.3s;
-        }
-
-        .client_item img:hover {
-            filter: none;
-        }
-
-        .footer_area {
-            background-color: #343a40;
-            color: #fff;
-            padding: 30px 0;
-            text-align: center;
-        }
-
-        .footer_social a {
-            color: #ffd700;
-            margin: 0 10px;
-        }
-
-        .footer_social a:hover {
-            color: #fff;
-        }
-
-        @media (max-width: 768px) {
-            .home_banner_area {
-                padding: 70px 0;
-            }
-
-            .banner_content {
-                text-align: center;
-            }
-
-            .banner_content .d-flex {
-                flex-direction: column;
-            }
-
-            .banner_content .primary_btn {
-                margin-bottom: 20px;
-            }
+</head>
+<style>
+        .shrink {
+            width: 90%;
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 20px; /* Adjust this value to move the image further right */
         }
     </style>
-</head>
-
 <body>
 
     <!--================ Define Header =================-->
@@ -143,8 +33,11 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
@@ -168,13 +61,18 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="banner_content">
-                            <h3 class="text-uppercase">Hello !</h3>
+                            <h3 class="text-uppercase">Hello!</h3>
                             <h1 class="text-uppercase">I am Anuj Gupta</h1>
                             <h5 class="text-uppercase">Software Engineer</h5>
                             <div class="d-flex align-items-center">
                                 <a class="primary_btn tr-bg" href="https://docs.google.com/document/d/1uUxaZ44kY4uZCXud1MqDdv356asiq958WsJyKqxhQVM/edit?usp=sharing" target="_blank"><span>Get CV</span></a>
                                 <a href="https://www.linkedin.com/in/en-guptaanuj/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:32px"></i></a>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="home_right_img">
+                            <img class="" src="img/myimage.jpg" width="80%" height="80%" alt="Shrunk Image">
                         </div>
                     </div>
                 </div>
@@ -187,6 +85,12 @@
     <section class="about_area section_gap" id="about">
         <div class="container">
             <div class="row justify-content-start align-items-center">
+                <div class="col-lg-5">
+                    <div class="about_img">
+                        <img class="" src="img/background.jpg" class="shrink" alt="Shrunk Image">
+                    </div>
+                </div>
+
                 <div class="offset-lg-1 col-lg-5">
                     <div class="main_title text-left">
                         <h2>A Short Introduction<br>About Me.</h2>
@@ -209,7 +113,7 @@
     <!--================ End About Area =================-->
 
     <!--================ Work Experience =================-->
-    <section class="brand_area section_gap_bottom" id="work">
+    <section class="brand_area section_gap_bottom" id="work"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -253,6 +157,7 @@
         </div>
     </section>
     <!--================ End Work Experience =================-->
+
 
     <!--================ Clients =================-->
     <section class="clients_area section_gap" id="clients">
@@ -354,3 +259,5 @@
 </body>
 
 </html>
+
+
